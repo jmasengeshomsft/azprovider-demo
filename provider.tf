@@ -5,19 +5,6 @@ provider "azurerm" {
      }
   }
 }
-
-terraform {
-  required_providers {
-    azapi = {
-      source = "azure/azapi"
-    }
-  }
-}
-
-provider "azapi" {
-  
-}
-
 terraform {
     required_version = ">= 1.0.0"
     }
