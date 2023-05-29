@@ -1,5 +1,5 @@
 data "azurerm_api_management" "jm_apim" {
-  name                = "multi-tenant-apim"
+  name                = "jmdevapim001"
   resource_group_name = "apim-demos"
 }
 
